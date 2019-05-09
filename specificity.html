@@ -3,17 +3,21 @@
 <head>
 	<title>Specificity</title>
 	<style type="text/css">
-		body {
-			color: red;
-		}
+	body {
+		color: red;
+	}
 
-		p {
-			color: green;
-		}
+	ul {
+		color: blue;
+	}
 
-		ul {
-			color: blue;
-		}
+	li {
+		color: orange;
+	}
+
+	.highlight {
+		color: yellow;
+	}
 	</style>
 </head>
 <body>
@@ -21,10 +25,10 @@
 <p>HELLO!!!</p>
 
 <ul>
-	<li>John</li>
+	<li class="highlight">John</li>
 	<li>Paul</li>
 	<li>Georgia</li>
-	<li>Ringo</li>
+	<li class="highlight">Ringo</li>
 </ul>
 
 </body>
